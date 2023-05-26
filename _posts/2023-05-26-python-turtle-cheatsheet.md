@@ -1,5 +1,5 @@
 ---
-published: false
+published: true
 ---
 # A Cheatsheet for Python Turtle
 
@@ -253,5 +253,20 @@ It can be tedious to write everything out. Here's how you can do it with `t.pen(
 t.pen(pencolor='red', fillcolor='green', pensize=5, speed=10)
 ```
 
+## Clear and Reset
 
+### Clear the Screen
 
+This clears the screen but leaves your turtle properties the same
+
+```python
+t.clear()
+```
+
+### Reset
+
+This resets everything including the turtle properties
+
+```python
+t.reset()
+```
