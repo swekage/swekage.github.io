@@ -1,8 +1,6 @@
 ---
 published: true
 ---
-# A Cheatsheet for Python Turtle
-
 ## Basics
 
 ### Import turtle and set up turtle object
