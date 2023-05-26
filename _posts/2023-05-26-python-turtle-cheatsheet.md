@@ -6,6 +6,7 @@ layout: post
 categories: [Technical]
 ---
 
+![maxresdefault.jpg]({{site.baseurl}}/_posts/maxresdefault.jpg)
 
 `turtle` is a preinstalled library in python that allows you to draw graphics. Many beginner computer science courses use it to teach students because it is easy to set up and use. 
 
