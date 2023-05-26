@@ -10,6 +10,8 @@ published: false
 ```python
 import turtle
 
+turtle.title('My Turtle Program')
+
 t = turtle.Turtle()
 
 t.forward(100)
@@ -72,6 +74,22 @@ t.forward(100)
 t.right(90)
 t.forward(90)
 t.home()
+```
+
+### Pen up and down
+
+Sometimes you want to move the pen without drawing. Here's how you draw 2 parallel lines.
+
+```python
+t.forward(100)
+t.right(90)
+t.penup()
+
+t.forward(100)
+t.right(90)
+
+t.pendown()
+t.forward(100)
 ```
 
 ### Drawing Shapes
@@ -140,7 +158,7 @@ for i in range(5):
 
 ## Adding Color
 
-### Changing the screen color
+### Changing the Screen Color
 
 We can change the screen color on the imported turtle library
 
@@ -150,7 +168,7 @@ import turtle
 turtle.bgcolor('blue')
 ```
 
-### Changing the pen Color
+### Changing the Pen Color
 
 ```python
 t.pencolor('red')
@@ -177,6 +195,63 @@ t.pencolor(red)
 t.forward(100)
 ```
 
+### Filling in a Shape With Color
+
+```python
+t.fillcolor('red')
+
+t.begin_fill()
+t.forward(100)
+t.left(120)
+t.forward(100)
+t.left(120)
+t.forward(100)
+t.end_fill()
+```
+
+You can also use Hexcode
+
+```python
+# change pen color to green
+t.fillcolor('#008000')
+```
+
+or RGB
+
+```python
+# by default the colormode is 1. we need to change it to 255 to use typical rgb values.
+# if we want to stay on 1, then we just need to divide each of the rgb values by 255.
+turtle.colormode(255)
+
+red = (255, 0, 0)
+t.fillcolor(red)
+```
+
+## Pen Properties
+
+### Changing the Pen Speed
+
+Sometimes you want the pen to move faster. 0 is the slowest. 10 is the highest.
+
+```python
+t.speed(10)
+```
+
+### Changing the Pen Size
+
+Sometimes you want to have larger brush strokes
+
+```python
+t.pensize(10)
+```
+
+### Shorthand for Changing Pen Properties
+
+It can be tedious to write everything out. Here's how you can do it with `t.pen()`
+
+```python
+t.pen(pencolor='red', fillcolor='green', pensize=5, speed=10)
+```
 
 
 
