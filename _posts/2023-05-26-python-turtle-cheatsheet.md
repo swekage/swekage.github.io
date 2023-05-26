@@ -1,6 +1,25 @@
 ---
 published: true
 ---
+### Table of Contents
+
+- [Basics](#basics)
+  - [Import turtle and set up turtle object](#import-turtle-and-set-up-turtle-object)
+- [Drawing Shapes](#drawing-shapes)
+  - [Square](#square)
+  - [Rectangle](#rectangle)
+  - [Dot](#dot)
+- [Adding Color](#adding-color)
+  - [Changing the Screen Color](#changing-the-screen-color)
+- [change pen color to green](#change-pen-color-to-green)
+  - [Filling in a Shape With Color](#filling-in-a-shape-with-color)
+- [by default the colormode is 1. we need to change it to 255 to use typical rgb values.](#by-default-the-colormode-is-1-we-need-to-change-it-to-255-to-use-typical-rgb-values)
+- [if we want to stay on 1, then we just need to divide each of the rgb values by 255.](#if-we-want-to-stay-on-1-then-we-just-need-to-divide-each-of-the-rgb-values-by-255)
+  - [Changing the Pen Size](#changing-the-pen-size)
+- [Clear and Reset](#clear-and-reset)
+  - [Clear the Screen](#clear-the-screen)
+
+
 # Basics
 
 ## Import turtle and set up turtle object
