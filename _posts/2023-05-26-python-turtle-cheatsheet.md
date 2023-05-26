@@ -1,9 +1,9 @@
 ---
 published: true
 ---
-## Basics
+# Basics
 
-### Import turtle and set up turtle object
+## Import turtle and set up turtle object
 
 ```python
 import turtle
@@ -16,7 +16,7 @@ t.forward(100)
 ```
 
 
-### Move turtle
+## Move turtle
 
 You can move the turtle forward or backwards a particular distance
 
@@ -37,7 +37,7 @@ t.bk(100)
 See **goto and home** for how to move the turtle with x and y coordinates
 
 
-### Turn turtle
+## Turn turtle
 
 You can turn the turtle either right or left at a particular angle
 
@@ -57,7 +57,7 @@ t.lt(90)
 ```
 
 
-### goto and home
+## goto and home
 
 You can also move the turtle by giving it x and y coordinates. The turtle always starts at (0,0) when you first start the program.
 
@@ -74,7 +74,7 @@ t.forward(90)
 t.home()
 ```
 
-### Pen up and down
+## Pen up and down
 
 Sometimes you want to move the pen without drawing. Here's how you draw 2 parallel lines.
 
@@ -90,9 +90,9 @@ t.pendown()
 t.forward(100)
 ```
 
-### Drawing Shapes
+# Drawing Shapes
 
-#### Square
+## Square
 
 This is how you draw a square.
 
@@ -115,7 +115,7 @@ for i in range(4):
     t.right(90)
 ```
 
-#### Rectangle
+## Rectangle
 
 Similar to drawing a square
 
@@ -130,7 +130,7 @@ t.forward(30)
 t.right(90)
 ```
 
-#### Circle
+## Circle
 
 You can provide a radius to **t.circle()** to create a circle.
 
@@ -138,7 +138,7 @@ You can provide a radius to **t.circle()** to create a circle.
 t.circle(100)
 ```
 
-#### Dot
+## Dot
 
 You can provide a diameter to the **t.dot()** to create a dot.
 
@@ -146,7 +146,7 @@ You can provide a diameter to the **t.dot()** to create a dot.
 t.dot(50)
 ```
 
-#### Star
+## Star
 
 ```python
 for i in range(5):
@@ -154,9 +154,9 @@ for i in range(5):
     t.right(144)
 ```
 
-## Adding Color
+# Adding Color
 
-### Changing the Screen Color
+## Changing the Screen Color
 
 We can change the screen color on the imported turtle library
 
@@ -166,7 +166,7 @@ import turtle
 turtle.bgcolor('blue')
 ```
 
-### Changing the Pen Color
+## Changing the Pen Color
 
 ```python
 t.pencolor('red')
@@ -193,7 +193,7 @@ t.pencolor(red)
 t.forward(100)
 ```
 
-### Filling in a Shape With Color
+## Filling in a Shape With Color
 
 ```python
 t.fillcolor('red')
@@ -225,9 +225,9 @@ red = (255, 0, 0)
 t.fillcolor(red)
 ```
 
-## Pen Properties
+# Pen Properties
 
-### Changing the Pen Speed
+## Changing the Pen Speed
 
 Sometimes you want the pen to move faster. 0 is the slowest. 10 is the highest.
 
@@ -235,7 +235,7 @@ Sometimes you want the pen to move faster. 0 is the slowest. 10 is the highest.
 t.speed(10)
 ```
 
-### Changing the Pen Size
+## Changing the Pen Size
 
 Sometimes you want to have larger brush strokes
 
@@ -243,7 +243,7 @@ Sometimes you want to have larger brush strokes
 t.pensize(10)
 ```
 
-### Shorthand for Changing Pen Properties
+## Shorthand for Changing Pen Properties
 
 It can be tedious to write everything out. Here's how you can do it with `t.pen()`
 
@@ -251,9 +251,9 @@ It can be tedious to write everything out. Here's how you can do it with `t.pen(
 t.pen(pencolor='red', fillcolor='green', pensize=5, speed=10)
 ```
 
-## Clear and Reset
+# Clear and Reset
 
-### Clear the Screen
+## Clear the Screen
 
 This clears the screen but leaves your turtle properties the same
 
@@ -261,7 +261,7 @@ This clears the screen but leaves your turtle properties the same
 t.clear()
 ```
 
-### Reset
+## Reset
 
 This resets everything including the turtle properties
 
