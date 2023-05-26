@@ -86,7 +86,6 @@ You can turn the turtle either right or left at a particular angle
 t.right(90)
 
 t.left(90)
-
 ```
 
 Shorthand versions
