@@ -111,7 +111,7 @@ or if you want to use a for-loop
 
 ```python
 for i in range(4):
-	t.forward(100)
+    t.forward(100)
     t.right(90)
 ```
 
@@ -150,8 +150,8 @@ t.dot(50)
 
 ```python
 for i in range(5):
-	t.forward(100)
-	t.right(144)
+    t.forward(100)
+    t.right(144)
 ```
 
 ## Adding Color
