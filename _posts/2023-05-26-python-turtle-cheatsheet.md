@@ -20,8 +20,6 @@ published: true
   - [Clear the Screen](#clear-the-screen)
 
 
-# Basics
-
 ## Import turtle and set up turtle object
 
 ```python
@@ -109,9 +107,7 @@ t.pendown()
 t.forward(100)
 ```
 
-# Drawing Shapes
-
-## Square
+## Draw a Square
 
 This is how you draw a square.
 
@@ -134,7 +130,7 @@ for i in range(4):
     t.right(90)
 ```
 
-## Rectangle
+## Draw a Rectangle
 
 Similar to drawing a square
 
@@ -149,7 +145,7 @@ t.forward(30)
 t.right(90)
 ```
 
-## Circle
+## Draw a Circle
 
 You can provide a radius to **t.circle()** to create a circle.
 
@@ -157,7 +153,7 @@ You can provide a radius to **t.circle()** to create a circle.
 t.circle(100)
 ```
 
-## Dot
+## Draw a Dot
 
 You can provide a diameter to the **t.dot()** to create a dot.
 
@@ -165,7 +161,7 @@ You can provide a diameter to the **t.dot()** to create a dot.
 t.dot(50)
 ```
 
-## Star
+## Draw a Star
 
 ```python
 for i in range(5):
@@ -173,7 +169,6 @@ for i in range(5):
     t.right(144)
 ```
 
-# Adding Color
 
 ## Changing the Screen Color
 
@@ -244,8 +239,6 @@ red = (255, 0, 0)
 t.fillcolor(red)
 ```
 
-# Pen Properties
-
 ## Changing the Pen Speed
 
 Sometimes you want the pen to move faster. 0 is the slowest. 10 is the highest.
@@ -270,7 +263,6 @@ It can be tedious to write everything out. Here's how you can do it with `t.pen(
 t.pen(pencolor='red', fillcolor='green', pensize=5, speed=10)
 ```
 
-# Clear and Reset
 
 ## Clear the Screen
 
