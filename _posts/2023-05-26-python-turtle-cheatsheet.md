@@ -11,7 +11,7 @@ categories: [Technical]
 
 I made this cheatsheet because one day, I was tutoring a student who needed to use python turtle to draw the US Flag. They were getting stuck on how to add color, and I asked them if they were provided any references to use when they got stuck. They said yes and showed me a link that their teacher gave them to the official python turtle documentation. I told him to click the link. What I saw was god awful. If you don't believe me, take a look for [yourself](https://docs.python.org/3/library/turtle.html) 😤😤
 
-Hopefully this cheatsheet is more clear and will help you understand how to use turtle faster.
+Hopefully this cheatsheet is more clear and will help you understand how to use turtle faster!
 
 #### Table of Contents
 
