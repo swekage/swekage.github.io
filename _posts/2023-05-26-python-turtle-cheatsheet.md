@@ -5,19 +5,19 @@ published: true
 
 Basics
 
-[Import turtle and set up turtle object](#import-turtle-and-set-up-turtle-object)
-[Move turtle](#move-turtle)
-[Turn turtle](#turn-turtle)
-[goto and home](#goto-and-home)
-[Pen up and down](#pen-up-and-down)
+- [Import turtle and set up turtle object](#import-turtle-and-set-up-turtle-object)
+- [Move turtle](#move-turtle)
+- [Turn turtle](#turn-turtle)
+- [goto and home](#goto-and-home)
+- [Pen up and down](#pen-up-and-down)
 
 Drawing Shapes
 
-[Draw a Square](#draw-a-square)
-[Draw a Rectangle](#draw-a-rectangle)
-[Draw a Circle](#draw-a-circle)
-[Draw a Dot](#draw-a-dot)
-[Draw a Star](#draw-a-star)
+- [Draw a Square](#draw-a-square)
+- [Draw a Rectangle](#draw-a-rectangle)
+- [Draw a Circle](#draw-a-circle)
+- [Draw a Dot](#draw-a-dot)
+- [Draw a Star](#draw-a-star)
 
 Color
 
