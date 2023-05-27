@@ -1,4 +1,4 @@
-title: swekage's blog
+title: swekage
 author:
   name: swekage
   email: swekage@gmail.com
@@ -8,7 +8,7 @@ permalink: /:title
 # The `>` after `description:` means to ignore line-breaks until next key.
 # If you want to omit the line-break after the end of text, use `>-` instead.
 description: >
-  All of swekage's blog posts in one place
+  All of swekage's posts in one place
 
 # Build settings
 
