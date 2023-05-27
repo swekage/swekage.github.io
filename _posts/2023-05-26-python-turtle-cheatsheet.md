@@ -1,14 +1,11 @@
 ---
-published: true
----
----
 layout: post
 categories: [Technical]
 ---
 
-![python turtle cheatsheet.png]({{site.baseurl}}/_posts/python turtle cheatsheet.png)
+![python turtle cheatsheet.png]({{site.baseurl}}/\_posts/python turtle cheatsheet.png)
 
-`turtle` is a preinstalled library in python that allows you to draw graphics. Many beginner computer science courses use it to teach students because it is easy to set up and use. 
+`turtle` is a preinstalled library in python that allows you to draw graphics. Many beginner computer science courses use it to teach students because it is easy to set up and use.
 
 I made this cheatsheet because one day, I was tutoring a student who needed to use python turtle to draw the US Flag. They were getting stuck on how to add color, and I asked them if they were provided any references to use when they got stuck. They said yes and showed me a link that their teacher gave them to the official python turtle documentation. I told him to click the link. What I saw was god awful. If you don't believe me, take a look for [yourself](https://docs.python.org/3/library/turtle.html) 😤😤
 
@@ -49,7 +46,6 @@ Clear and Reset
 - [Clear the Screen](#clear-the-screen)
 - [Reset](#reset)
 
-
 ## Import turtle and set up turtle object
 
 ```python
@@ -61,7 +57,6 @@ t = turtle.Turtle()
 
 t.forward(100)
 ```
-
 
 ## Move turtle
 
@@ -83,7 +78,6 @@ t.bk(100)
 
 See **goto and home** for how to move the turtle with x and y coordinates
 
-
 ## Turn turtle
 
 You can turn the turtle either right or left at a particular angle
@@ -101,7 +95,6 @@ t.rt(90)
 
 t.lt(90)
 ```
-
 
 ## goto and home
 
@@ -198,7 +191,6 @@ for i in range(5):
     t.right(144)
 ```
 
-
 ## Changing the Screen Color
 
 We can change the screen color on the imported turtle library
@@ -291,7 +283,6 @@ It can be tedious to write everything out. Here's how you can do it with `t.pen(
 ```python
 t.pen(pencolor='red', fillcolor='green', pensize=5, speed=10)
 ```
-
 
 ## Clear the Screen
 
