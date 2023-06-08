@@ -2,6 +2,7 @@
 layout: post
 categories: [Career]
 title: A detailed day in the life of a good Sofware Engineer at Meta making $368K w/ 6 yrs of exp
+subtitle: asdf
 published: false
 ---
 
