@@ -1,2 +1,12 @@
 // Placeholder to allow defining custom styles that override everything else.
 // (Use `_sass/minima/custom-variables.scss` to override variable defaults)
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: unset;
+  margin-top: $spacing-unit * 2;
+}
