@@ -2,7 +2,7 @@
 layout: post
 categories: [Career]
 title: What a day in the life of a senior engineer looks like (Meta $368k 6 YOE)
-subtitle: There's a lot more work than what most videos show you
+subtitle: There's a lot more work being done than what most videos show you
 published: false
 ---
 
