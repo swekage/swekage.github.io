@@ -21,7 +21,7 @@ What I saw was god awful. If you don't believe me, take a look for [yourself](ht
 
 Hopefully this cheatsheet is more clear and will help you understand how to use turtle faster!
 
-#### Table of Contents
+**Table of Contents**
 
 Basics
 
