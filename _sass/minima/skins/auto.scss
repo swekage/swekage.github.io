@@ -112,10 +112,14 @@ $lm-table-border-color: $lm-border-color-01 !default;
       background-color: #e3d2d2;
     } // Error
     .k {
-      color: #89ddff;
+      color: #d9a2dd;
       font-weight: bold;
     } // Keyword
+    .p {
+      color: #fa7b57;
+    } // Period
     .o {
+      color: #fa7b57;
       font-weight: bold;
     } // Operator
     .cm {
@@ -225,7 +229,7 @@ $lm-table-border-color: $lm-border-color-01 !default;
       font-weight: bold;
     } // Name.Function
     .nn {
-      color: #ffffff;
+      color: #fdfdfd;
     } // Name.Namespace
     .nt {
       color: #ffcb6b;
@@ -234,6 +238,7 @@ $lm-table-border-color: $lm-border-color-01 !default;
       color: #eeffff;
     } // Name.Variable
     .ow {
+      color: #d9a2dd;
       font-weight: bold;
     } // Operator.Word
     .w {
