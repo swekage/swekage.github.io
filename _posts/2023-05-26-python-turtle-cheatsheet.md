@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Python Turtle Cheatsheet
-subtitle: This is what the official turtle reference should have looked like
+subtitle: What the official turtle reference should have looked like
 categories: [Technical]
 ---
 
