@@ -23,38 +23,37 @@ Hopefully this cheatsheet is more clear and will help you understand how to use 
 
 **Table of Contents**
 
-Basics
+- Basics
 
-- [Import turtle and set up turtle object](#import-turtle-and-set-up-turtle-object)
-- [Move turtle](#move-turtle)
-- [Turn turtle](#turn-turtle)
-- [goto and home](#goto-and-home)
-- [Pen up and down](#pen-up-and-down)
+  - [Import turtle and set up turtle object](#import-turtle-and-set-up-turtle-object)
+  - [Move turtle](#move-turtle)
+  - [Turn turtle](#turn-turtle)
+  - [goto and home](#goto-and-home)
+  - [Pen up and down](#pen-up-and-down)
 
-Drawing Shapes
+- Drawing Shapes
 
-- [Draw a Square](#draw-a-square)
-- [Draw a Rectangle](#draw-a-rectangle)
-- [Draw a Circle](#draw-a-circle)
-- [Draw a Dot](#draw-a-dot)
-- [Draw a Star](#draw-a-star)
+  - [Draw a Square](#draw-a-square)
+  - [Draw a Rectangle](#draw-a-rectangle)
+  - [Draw a Circle](#draw-a-circle)
+  - [Draw a Dot](#draw-a-dot)
+  - [Draw a Star](#draw-a-star)
 
-Color
+- Color
 
-- [Changing the Screen Color](#changing-the-screen-color)
-- [Changing the Pen Color](#changing-the-pen-color)
-- [Filling in a Shape With Color](#filling-in-a-shape-with-color)
+  - [Changing the Screen Color](#changing-the-screen-color)
+  - [Changing the Pen Color](#changing-the-pen-color)
+  - [Filling in a Shape With Color](#filling-in-a-shape-with-color)
 
-Pen Properties
+- Pen Properties
 
-- [Changing the Pen Speed](#changing-the-pen-speed)
-- [Changing the Pen Size](#changing-the-pen-size)
-- [Shorthand for Changing Pen Properties](#shorthand-for-changing-pen-properties)
+  - [Changing the Pen Speed](#changing-the-pen-speed)
+  - [Changing the Pen Size](#changing-the-pen-size)
+  - [Shorthand for Changing Pen Properties](#shorthand-for-changing-pen-properties)
 
-Clear and Reset
-
-- [Clear the Screen](#clear-the-screen)
-- [Reset](#reset)
+- Clear and Reset
+  - [Clear the Screen](#clear-the-screen)
+  - [Reset](#reset)
 
 ## Import turtle and set up turtle object
 
