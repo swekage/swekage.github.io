@@ -43,6 +43,21 @@ h3 {
   font-weight: 700;
 }
 
-.post-subtitle {
-  @include relative-font-size(1.25);
+.post-header {
+  .post-title {
+    margin-bottom: $spacing-unit / 2;
+    text-align: center;
+  }
+
+  .post-subtitle {
+    @include relative-font-size(1.2);
+    color: $brand-color;
+    margin-bottom: $spacing-unit / 2;
+    text-align: center;
+  }
+
+  .post-meta {
+    text-align: center;
+    color: $text-color;
+  }
 }
