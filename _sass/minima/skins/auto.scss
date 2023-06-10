@@ -18,7 +18,7 @@ $lm-site-title-color: $lm-brand-color-dark !default;
 $lm-text-color: #111111 !default;
 $lm-background-color: #fdfdfd !default;
 // $lm-code-background-color: #eeeeff !default;
-$lm-code-background-color: #212121 !default;
+$lm-code-background-color: #303841 !default;
 
 $lm-link-base-color: #2a7ae2 !default;
 $lm-link-visited-color: darken($lm-link-base-color, 15%) !default;
@@ -178,6 +178,9 @@ $lm-table-border-color: $lm-border-color-01 !default;
     .kc {
       font-weight: bold;
     } // Keyword.Constant
+    .kn {
+      color: #d9a2dd;
+    } // Keyword.Namespace
     .kd {
       font-weight: bold;
     } // Keyword.Declaration
@@ -222,7 +225,7 @@ $lm-table-border-color: $lm-border-color-01 !default;
       font-weight: bold;
     } // Name.Function
     .nn {
-      color: #555;
+      color: #ffffff;
     } // Name.Namespace
     .nt {
       color: #ffcb6b;
