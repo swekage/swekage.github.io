@@ -104,7 +104,7 @@ $lm-table-border-color: $lm-border-color-01 !default;
 @mixin lm-highlight {
   .highlight {
     .c {
-      color: #a3a3a3;
+      color: #828282;
       font-style: italic;
     } // Comment
     .err {
@@ -116,23 +116,22 @@ $lm-table-border-color: $lm-border-color-01 !default;
       font-weight: bold;
     } // Keyword
     .o {
-      color: #fa7b57;
       font-weight: bold;
     } // Operator
     .cm {
-      color: #a3a3a3;
+      color: #828282;
       font-style: italic;
     } // Comment.Multiline
     .cp {
-      color: #a3a3a3;
+      color: #828282;
       font-weight: bold;
     } // Comment.Preproc
     .c1 {
-      color: #a3a3a3;
+      color: #828282;
       font-style: italic;
     } // Comment.Single
     .cs {
-      color: #a3a3a3;
+      color: #828282;
       font-weight: bold;
       font-style: italic;
     } // Comment.Special
@@ -196,10 +195,10 @@ $lm-table-border-color: $lm-border-color-01 !default;
       font-weight: bold;
     } // Keyword.Type
     .m {
-      color: #f0b14c;
+      color: #f78c6c;
     } // Literal.Number
     .s {
-      color: #8fc190;
+      color: #c3e88d;
     } // Literal.String
     .na {
       color: #008080;
@@ -254,37 +253,37 @@ $lm-table-border-color: $lm-border-color-01 !default;
       color: #f78c6c;
     } // Literal.Number.Oct
     .sb {
-      color: #8fc190;
+      color: #c3e88d;
     } // Literal.String.Backtick
     .sc {
-      color: #8fc190;
+      color: #c3e88d;
     } // Literal.String.Char
     .sd {
-      color: #8fc190;
+      color: #c3e88d;
     } // Literal.String.Doc
     .s2 {
-      color: #8fc190;
+      color: #c3e88d;
     } // Literal.String.Double
     .se {
       color: #eeffff;
     } // Literal.String.Escape
     .sh {
-      color: #8fc190;
+      color: #c3e88d;
     } // Literal.String.Heredoc
     .si {
-      color: #8fc190;
+      color: #c3e88d;
     } // Literal.String.Interpol
     .sx {
-      color: #8fc190;
+      color: #c3e88d;
     } // Literal.String.Other
     .sr {
-      color: #8fc190;
+      color: #c3e88d;
     } // Literal.String.Regex
     .s1 {
-      color: #8fc190;
+      color: #c3e88d;
     } // Literal.String.Single
     .ss {
-      color: #8fc190;
+      color: #c3e88d;
     } // Literal.String.Symbol
     .bp {
       color: #999;
