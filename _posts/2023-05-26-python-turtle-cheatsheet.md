@@ -17,7 +17,9 @@ I made this cheatsheet because one day, I was tutoring a student who needed to u
 
 Confused, but just chalking it up to laziness, I told him to click the link.
 
-What I saw was god awful. If you don't believe me, take a look for [yourself](https://docs.python.org/3/library/turtle.html){:target="\_blank"}! The first sentence even says "Turtle graphics is a popular way for introducing programming to kids." but scroll down for 1 second and tell me if you think any kid or even adult for that matter starting to learn programming is going to be able to parse through that.
+What I saw was god awful. If you don't believe me, take a look for [yourself](https://docs.python.org/3/library/turtle.html){:target="\_blank"}!
+
+The first sentence says turtle is a popular way for introducing **programming to kids** but scroll down for 1 second and tell me if you think any adult, much less a kid, new to programming is going to be able to parse through that.
 
 Hopefully this cheatsheet is more clear and will help you understand how to use turtle faster!
 
