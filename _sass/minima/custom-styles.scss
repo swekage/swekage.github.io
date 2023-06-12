@@ -101,33 +101,33 @@ code,
   overflow: hidden;
   flex-basis: 49%;
 
-  a {
-    color: unset;
-  }
-
-  :hover {
+  &:hover {
     box-shadow: none;
     text-decoration: none;
+  }
+
+  a {
+    color: unset;
   }
 }
 
 .post-itemv2-featured-image {
   background-size: cover;
   background-position: center;
-  height: 245px;
+  height: 240px;
 }
 
 .post-itemv2-info {
-  padding-top: $spacing-unit / 2;
-  padding-left: $spacing-unit / 2;
-  padding-right: $spacing-unit/ 2;
+  padding: $spacing-unit;
 
   .post-meta {
     font-size: $small-font-size;
+    margin-bottom: $spacing-unit / 2;
   }
 }
 
 .post-itemv2-title {
+  margin-bottom: $spacing-unit / 2;
   &:hover {
     color: $link-hover-color;
   }
