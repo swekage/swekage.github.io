@@ -84,3 +84,14 @@ code,
     border-radius: 5px;
   }
 }
+
+// Post List v2
+.post-listv2 {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.post-itemv2 {
+  width: 245px;
+}
