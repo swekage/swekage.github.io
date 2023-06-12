@@ -90,8 +90,14 @@ code,
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
+  gap: $spacing-unit / 2;
 }
 
 .post-itemv2 {
-  width: 245px;
+}
+
+.post-itemv2-featured-image {
+  background-size: cover;
+  background-position: center;
+  height: 245px;
 }

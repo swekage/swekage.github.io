@@ -30,14 +30,19 @@ layout: base
     {%- assign date_format = site.minima.date_format | default: "%b %-d, %Y" -%}
     {%- for post in posts -%}
     <div class="post-itemv2">
-      <div class="post-meta">{{ post.date | date: date_format }}</div>
-      <div style="background-image:url({{post.featured_image}})"></div>
-      <h3>
-        <a class="post-link" href="{{ post.url | relative_url }}">
-          {{ post.title | escape }}
-        </a>
-      </h3>
-      <p>{{post.subtitle}}</p>
+      <div
+        class="post-itemv2-featured-image"
+        style="background-image:url({{post.featured_image}})"
+      ></div>
+      <div>
+        <div class="post-meta">{{ post.date | date: date_format }}</div>
+        <h3>
+          <a class="post-link" href="{{ post.url | relative_url }}">
+            {{ post.title | escape }}
+          </a>
+        </h3>
+        <div>{{post.subtitle}}</div>
+      </div>
     </div>
     {%- endfor -%}
   </div>
