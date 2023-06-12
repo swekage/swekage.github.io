@@ -96,18 +96,21 @@ code,
 }
 
 .post-itemv2 {
-  box-shadow: 0 5px 22px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 8px 22px rgba(0, 0, 0, 0.3);
   border-radius: 5px;
   overflow: hidden;
   flex-basis: 49%;
 
   &:hover {
-    box-shadow: none;
-    text-decoration: none;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
   }
 
   a {
     color: unset;
+  }
+
+  a:hover {
+    text-decoration: none;
   }
 }
 
