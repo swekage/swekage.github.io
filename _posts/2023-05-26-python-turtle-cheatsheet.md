@@ -3,9 +3,8 @@ layout: post
 title: Python Turtle Cheatsheet
 subtitle: What the official turtle reference should have looked like
 categories: [Technical]
+featured_image: /assets/images/python-turtle-cheatsheet.png
 ---
-
-![python turtle cheatsheet.png](/assets/images/python-turtle-cheatsheet.png)
 
 `turtle` is a preinstalled library in python that allows you to draw graphics. Many beginner computer science courses use it to teach students because it is easy to set up and use.
 

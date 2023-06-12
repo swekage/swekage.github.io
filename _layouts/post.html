@@ -35,6 +35,12 @@ layout: base
     </p>
   </header>
 
+  {%- if page.featured_image -%}
+  <div class="post-featuredImage">
+    <img alt="{{ page.title }}" src="{{page.featured_image}}" />
+  </div>
+  {%- endif -%}
+
   <div class="post-content e-content" itemprop="articleBody">{{ content }}</div>
 
   {%- if site.disqus.shortname -%} {%- include disqus_comments.html -%} {%-
