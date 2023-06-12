@@ -6,22 +6,6 @@ categories: [Technical]
 featured_image: /assets/images/python-turtle-cheatsheet.png
 ---
 
-`turtle` is a preinstalled library in python that allows you to draw graphics. Many beginner computer science courses use it to teach students because it is easy to set up and use.
-
-I made this cheatsheet because one day, I was tutoring a student who needed to use python turtle to draw the US Flag. They were getting stuck on how to add color, and I asked them if their teacher gave them any references for when they got stuck. He said yes and showed me a link he was given to the official python turtle documentation.
-
-"Did you try using it?"
-
-"No."
-
-Confused, but just chalking it up to laziness, I told him to click the link.
-
-What I saw was god awful. If you don't believe me, take a look for [yourself](https://docs.python.org/3/library/turtle.html){:target="\_blank"}!
-
-The first sentence says turtle is a popular way for introducing **programming to kids** but scroll down for 1 second and tell me if you think any adult, much less a kid, new to programming is going to be able to parse through that.
-
-Hopefully this cheatsheet is more clear and will help you understand how to use turtle faster!
-
 **Table of Contents**
 
 - Basics
@@ -55,6 +39,22 @@ Hopefully this cheatsheet is more clear and will help you understand how to use 
 - Clear and Reset
   - [Clear the Screen](#clear-the-screen)
   - [Reset](#reset)
+
+`turtle` is a preinstalled library in python that allows you to draw graphics. Many beginner computer science courses use it to teach students because it is easy to set up and use.
+
+I made this cheatsheet because one day, I was tutoring a student who needed to use python turtle to draw the US Flag. They were getting stuck on how to add color, and I asked them if their teacher gave them any references for when they got stuck. He said yes and showed me a link he was given to the official python turtle documentation.
+
+"Did you try using it?"
+
+"No."
+
+Confused, but just chalking it up to laziness, I told him to click the link.
+
+What I saw was god awful. If you don't believe me, take a look for [yourself](https://docs.python.org/3/library/turtle.html){:target="\_blank"}!
+
+The first sentence says turtle is a popular way for introducing **programming to kids** but scroll down for 1 second and tell me if you think any adult, much less a kid, new to programming is going to be able to parse through that.
+
+Hopefully this cheatsheet is more clear and will help you understand how to use turtle faster!
 
 ## Import turtle and set up turtle object
 
