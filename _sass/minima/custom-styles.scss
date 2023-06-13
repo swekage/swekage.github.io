@@ -92,20 +92,25 @@ code,
 .post-listv2 {
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-between;
+  gap: $spacing-unit / 2;
 }
 
 .post-itemv2 {
   box-shadow: 0.5px 8px 12px rgba(0, 0, 0, 0.1);
   border-radius: 8px;
   overflow: hidden;
-  flex-basis: 48%;
+  flex-basis: 32%;
   transition: box-shadow 0.15s ease-out;
   margin-bottom: $spacing-unit;
+  border: 1px solid rgba(0, 0, 0, 0.07);
 
   &:hover {
     box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.2);
     scale: 0.99;
+
+    .post-itemv2-title {
+      color: $link-hover-color;
+    }
   }
 
   a {
@@ -129,14 +134,12 @@ code,
   .post-meta {
     font-size: $small-font-size;
     margin-bottom: $spacing-unit / 2;
+    color: $text-color;
   }
 }
 
 .post-itemv2-title {
   margin-bottom: $spacing-unit / 2;
-  &:hover {
-    color: $link-hover-color;
-  }
 }
 
 .post-itemv2-subtitle {
