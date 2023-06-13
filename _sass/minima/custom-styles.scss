@@ -100,7 +100,7 @@ code,
   border-radius: 8px;
   overflow: hidden;
   flex-basis: 32%;
-  transition: box-shadow 0.15s ease-out;
+  transition: box-shadow 0.15s ease-out, scale 0.15s ease-out;
   margin-bottom: $spacing-unit;
   border: 1px solid rgba(0, 0, 0, 0.07);
 
